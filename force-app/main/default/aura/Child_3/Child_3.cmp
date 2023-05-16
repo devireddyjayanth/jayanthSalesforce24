@@ -1,0 +1,8 @@
+<aura:component >
+    <aura:attribute name="val2" type="String"/>
+    <aura:handler event="c:ThirdEvent" action="{!c.callone}"/>
+    <br/>
+    <br/>
+    Name Second : {!v.val2}
+	
+</aura:component>

@@ -1,0 +1,10 @@
+<aura:component >
+    
+    <aura:attribute name="val1" type="string"/>
+    <aura:handler event="c:ThirdEvent" action="{!c.invokes}"/>
+    
+    <br/>
+    <br/>
+    name : {!v.val1}
+	
+</aura:component>

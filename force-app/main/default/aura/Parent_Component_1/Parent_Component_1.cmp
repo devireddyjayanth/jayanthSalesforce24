@@ -1,0 +1,9 @@
+<aura:component >
+    Institute		: Capital Info <br/>
+    Main Branch		: Ameerpet <br/>
+    City			: HYD <br/>
+    <br/>
+    
+    <c:Child_Component_1 /> <br/>
+    <c:Child_Component_2 />
+</aura:component>

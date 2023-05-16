@@ -1,0 +1,9 @@
+<aura:component >
+    <aura:attribute name="myName" type="String"/>
+    <aura:handler name="secondEvReg" event="c:secondEvent" action="{!c.invokes}"/>
+    
+    <c:ChildComponentOne/>
+    
+    <br/><br/>
+    Name : {!v.myName}
+</aura:component>

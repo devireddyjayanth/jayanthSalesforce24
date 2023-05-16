@@ -1,0 +1,13 @@
+<aura:component >
+    <aura:attribute name="name" type ="String" />
+    <aura:attribute name="age" type = "Integer" />
+    <aura:attribute name="collegeName" type="String"/>
+    <aura:attribute name="fee" type="Decimal" />
+    
+    <div>
+        Name 	 : {!v.name} <br/>
+        Age  	 : {!v.age} <br/>
+        Colleege : {!v.collegeName} <br/>
+        Fee  	 : {!v.fee} <br/>
+    </div>
+</aura:component>

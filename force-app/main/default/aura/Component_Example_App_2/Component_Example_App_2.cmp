@@ -1,0 +1,7 @@
+<aura:component >
+	<div>
+        Name			: Jayanth <br/>
+        Qualification   : B.Tech <br/>
+        College         : KSRM  <br/>
+    </div>
+</aura:component>

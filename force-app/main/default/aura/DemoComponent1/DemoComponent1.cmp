@@ -1,0 +1,6 @@
+<aura:component >
+    <c:DemoComponent/>
+    <hr/>
+	<h1>One more lightninng components</h1>
+    <p> This is Jayanth from Hyderabad</p>
+</aura:component>

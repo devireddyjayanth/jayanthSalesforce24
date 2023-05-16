@@ -1,0 +1,15 @@
+<!-- dynamicComponent -->
+<aura:component >
+    <aura:attribute name="message" type="String"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <p>Dynamically Created button</p>
+    <br/><br/>
+    
+    {!v.body}
+    
+    <br/><br/>
+    
+    Button clicked Result = {!v.message}
+</aura:component>

@@ -1,0 +1,4 @@
+<aura:component >
+    <aura:registerEvent name="secondEvReg" type="c:secondEvent"/>
+    <lightning:button label="submit" onclick="{!c.doInit}"/>
+</aura:component>

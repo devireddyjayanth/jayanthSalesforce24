@@ -1,0 +1,7 @@
+<aura:component >
+	<div>
+        Institute		:  Capital Info Solution <br/>
+        Location		: Hyderabad <br/>
+        Course			: SFDC <br/>
+    </div>
+</aura:component>

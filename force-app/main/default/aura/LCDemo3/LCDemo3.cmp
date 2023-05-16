@@ -1,0 +1,12 @@
+<aura:component >
+    <aura:attribute name="Message1" type="String"/>
+    <aura:attribute name="Message2" type="String"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    Hello : {!v.Message1}<br/><br/>
+    
+    <lightning:button label="clickMe" onclick="{!c.ClickOne}"/><br/>
+    <hr/>
+    
+    <lightning:button label="ClickMeAgain" onclick="{!c.ClickOne}"/><br/>
+</aura:component>
